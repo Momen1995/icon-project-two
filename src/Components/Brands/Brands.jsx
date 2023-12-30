@@ -1,6 +1,5 @@
 import { useLoaderData } from 'react-router-dom';
 import Brand from '../Brand/Brand';
-import "./Brands.css"
 
 const Brands = () => {
 
@@ -10,10 +9,10 @@ const Brands = () => {
     <div>
       <h3>This is a Brand : {icons.length}</h3>
 
-      <div className='one'>
-        {
-          icons.map(icon => <Brand key={icon.id} icon={icon}></Brand>)
-        }
+      <div className="grid grid-cols-5 gap-6 text-center">
+        {icons.map((icon) => (
+          <Brand key={icon.id} icon={icon}></Brand>
+        ))}
       </div>
     </div>
   );

@@ -19,6 +19,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "classic",
+        loader: () => fetch("icons.json"),
         element: <Classic></Classic>,
       },
       {
