@@ -1,5 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 import Classics from "../Classics.jsx/Classics";
+import Alerts from "../Alerts/Alerts";
 
 
 const Classic = () => {

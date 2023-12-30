@@ -11,6 +11,15 @@ const HeaderTwo = () => {
           <Link to="/thin">Thin</Link>
           <Link to="/light">Light</Link>
         </div>
+
+        <p className="text-xl font-semibold mt-6 mb-2">Feature</p>
+        <div className="flex flex-col gap-3 font-medium">
+          <Link to="/alert">Alert</Link>
+          <Link to="/alphabet">Alphabet</Link>
+          <Link to="/communication">Communication</Link>
+          <Link to="/light">Business</Link>
+          <Link to="/map">Map</Link>
+        </div>
       </nav>
     </div>
   );

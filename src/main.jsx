@@ -11,6 +11,10 @@ import Brands from './Components/Brands/Brands.jsx';
 import Solid from './Components/Solid/Solid.jsx';
 import Regular from './Components/Regular/Regular.jsx';
 import Thin from './Components/Thin/Thin.jsx';
+import Lights from './Components/Lights/Lights.jsx';
+import Alerts from './Components/Alerts/Alerts.jsx';
+import Albhabets from './Components/Alphabets/Albhabets.jsx';
+import Communications from './Components/Communications/Communications.jsx';
 
 const router = createBrowserRouter([
   {
@@ -46,6 +50,26 @@ const router = createBrowserRouter([
         path: "thin",
         loader: () => fetch("icons.json"),
         element: <Thin></Thin>,
+      },
+      {
+        path: "light",
+        loader: () => fetch("icons.json"),
+        element: <Lights></Lights>,
+      },
+      {
+        path: "alert",
+        loader: () => fetch("icons.json"),
+        element: <Alerts></Alerts>,
+      },
+      {
+        path: "alphabet",
+        loader: () => fetch("icons.json"),
+        element: <Albhabets></Albhabets>,
+      },
+      {
+        path: "communication",
+        loader: () => fetch("icons.json"),
+        element: <Communications></Communications>,
       },
     ],
   },

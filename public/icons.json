@@ -4,7 +4,7 @@
     "category": "Alert",
     "icon": "AlertIcon-sharp",
     "style": "thin",
-    "image": "https://i.ibb.co/xCDTLM7/1076332.png"
+    "image": "https://i.ibb.co/nnqVKNP/images-11.png"
   },
   {
     "id": 2,
@@ -55,7 +55,6 @@
     "style": "solid",
     "image": "https://i.ibb.co/KKQKyD6/images.png"
   },
-
 
   {
     "id": 9,
@@ -128,7 +127,6 @@
     "image": "https://i.ibb.co/X3Bjykn/images-4.png"
   },
 
-
   {
     "id": 19,
     "category": "Social",
@@ -192,8 +190,6 @@
     "style": "solid",
     "image": "https://i.ibb.co/VSzYTth/images-6.png"
   },
-
-
 
   {
     "id": 27,
@@ -259,7 +255,6 @@
     "image": "https://i.ibb.co/C94LR1R/istockphoto-841185248-612x612.jpg"
   },
 
-
   {
     "id": 35,
     "category": "Communication",
@@ -324,7 +319,6 @@
     "image": "https://i.ibb.co/Hp3LWZV/1545615.png"
   },
 
-
   {
     "id": 44,
     "category": "Business",
@@ -387,5 +381,26 @@
     "icon": "BusinessIcon",
     "style": "solid",
     "image": "https://i.ibb.co/8D4MQgC/1000-F-222723488-RNae2l-AJ8w0-Lm-IE1z-Ge2ytq8-DTa-Wmb53.jpg"
+  },
+  {
+    "id": 53,
+    "category": "Alert",
+    "icon": "AlertIcon-sharp",
+    "style": "light",
+    "image": "https://i.ibb.co/nnqVKNP/images-11.png"
+  },
+  {
+    "id": 54,
+    "category": "Alert",
+    "icon": "AlertIcon-sharp",
+    "style": "light",
+    "image": "https://i.ibb.co/6v5xxRv/images-10.png"
+  },
+  {
+    "id": 55,
+    "category": "Alert",
+    "icon": "AlertIcon-sharp",
+    "style": "light",
+    "image": "https://i.ibb.co/vdLNq7G/images-12.png"
   }
 ]
