@@ -11,6 +11,7 @@ import {
 
 
 
+
 const Header = () => {
   return (
     <div>
@@ -40,7 +41,7 @@ const Header = () => {
                 <FaForward></FaForward>
               </div>
             </div>
-            Sharp
+            Sharp 
           </Link>
           <Link to="/brand">
             <FaRegFlag className="text-4xl mb-1 text-blue-950" />

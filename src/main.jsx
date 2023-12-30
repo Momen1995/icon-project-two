@@ -20,11 +20,13 @@ import Maps from './Components/Maps/Maps.jsx';
 import Socials from './Components/Socials/Socials.jsx';
 import Roomys from './Components/Roomys/Roomys.jsx';
 import Compacts from './Components/Compacts/Compacts.jsx';
+import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "classic",
