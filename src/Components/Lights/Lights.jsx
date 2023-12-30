@@ -11,9 +11,9 @@ const Lights = () => {
 
   return (
     <div>
-      <h1>Light : {lightIcons.length}</h1>
+      <h1 className="text-left font-medium">Light : {lightIcons.length}</h1>
 
-      <div className="grid grid-cols-5 gap-6 text-center">
+      <div className="grid grid-cols-2 lg:grid-cols-5  gap-6 text-center">
         {lightIcons.map((icon) => (
           <Light key={icon.id} icon={icon}></Light>
         ))}

@@ -14,7 +14,7 @@ import {
 const Header = () => {
   return (
     <div>
-      <nav className="flex justify-between">
+      <nav className="flex flex-col lg:flex lg:flex-row gap-3 justify-between">
         <div className="flex gap-10">
           <Link to="/classic">
             <div className="flex text-xl gap-1 text-blue-950 font-bold">

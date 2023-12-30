@@ -10,14 +10,12 @@ const Solid = () => {
     (icon) => icon.style === "solid"
   );
 
-  console.log(solidIcons)
-
 
   return (
     <div>
-      <h3>This is a solid : {solidIcons.length}</h3>
+      <h3 className="text-left font-medium">Solid : {solidIcons.length}</h3>
 
-      <div className='grid grid-cols-5 gap-6 text-center'>
+      <div className="grid grid-cols-2 lg:grid-cols-5  gap-6 text-center">
         {solidIcons.map((solidIcon) => (
           <Solids key={solidIcon.id} solidIcon={solidIcon}></Solids>
         ))}

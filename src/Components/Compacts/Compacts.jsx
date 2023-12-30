@@ -6,7 +6,8 @@ const Compacts = () => {
   const icons = useLoaderData();
   return (
     <div>
-      <div className="grid grid-cols-7 gap-3">
+      <h1 className="text-left font-medium">Compact: {icons.length}</h1>
+      <div className="grid grid-cols-2 lg:grid-cols-5  gap-3">
         {icons.map((icon) => (
           <Compact Key={icon.id} icon={icon}></Compact>
         ))}

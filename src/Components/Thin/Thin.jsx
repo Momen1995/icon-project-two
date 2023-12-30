@@ -9,9 +9,9 @@ const Thin = () => {
   );
   return (
     <div>
-      <h3>This is a thin: {thinIcons.length}</h3>
+      <h3 className="text-left font-medium">Thin: {thinIcons.length}</h3>
 
-      <div className="grid grid-cols-5 gap-6 text-center">
+      <div className="grid grid-cols-2 lg:grid-cols-5  gap-6 text-center">
         {thinIcons.map((icon) => (
           <Thins key={icon.id} icon={icon}></Thins>
         ))}

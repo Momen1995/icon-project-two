@@ -9,9 +9,9 @@ const Albhabets = () => {
   const alphaIcons = icons.filter((icon) => icon.category === "Alphabet");
   return (
     <div>
-      <h1>Albhabet : {alphaIcons.length}</h1>
+      <h1 className="text-left font-medium">Albhabet : {alphaIcons.length}</h1>
 
-      <div className="grid grid-cols-5 gap-6 text-center">
+      <div className="grid grid-cols-2 lg:grid-cols-5 gap-6 text-center">
         {alphaIcons.map((icon) => (
           <Albhabet key={icon.id} icon={icon}></Albhabet>
         ))}

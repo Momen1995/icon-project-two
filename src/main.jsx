@@ -18,7 +18,6 @@ import Communications from './Components/Communications/Communications.jsx';
 import Businesses from './Components/Businesses/Businesses.jsx';
 import Maps from './Components/Maps/Maps.jsx';
 import Socials from './Components/Socials/Socials.jsx';
-import Search from './Components/Search/Search.jsx';
 import Roomys from './Components/Roomys/Roomys.jsx';
 import Compacts from './Components/Compacts/Compacts.jsx';
 

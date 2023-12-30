@@ -6,9 +6,9 @@ const Maps = () => {
   const mapIcons = icons.filter((icon) => icon.category === "Map");
   return (
     <div>
-      <h1>Map : {mapIcons.length}</h1>
+      <h1 className="text-left font-medium">Map : {mapIcons.length}</h1>
 
-      <div className="grid grid-cols-5 gap-6 text-center">
+      <div className="grid grid-cols-2 lg:grid-cols-5  gap-6 text-center">
         {mapIcons.map((icon) => (
           <Map key={icon.id} icon={icon}></Map>
         ))}

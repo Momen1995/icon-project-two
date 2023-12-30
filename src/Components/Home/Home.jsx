@@ -9,7 +9,7 @@ const Home = () => {
     <div className="w-11/12 mx-auto">
       <Inputs></Inputs>
       <Header></Header>
-      <div className="flex gap-4">
+      <div className="flex flex-col lg:flex-row lg:gap-4">
         <div className="w-2/12 mt-12 text-left">
           <HeaderTwo></HeaderTwo>
         </div>
