@@ -402,5 +402,110 @@
     "icon": "AlertIcon-sharp",
     "style": "light",
     "image": "https://i.ibb.co/vdLNq7G/images-12.png"
+  },
+  {
+    "id": 56,
+    "category": "Alphabet",
+    "icon": "AlphabetIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/5jkMpF0/images-14.png"
+  },
+  {
+    "id": 57,
+    "category": "Alphabet",
+    "icon": "AlphabetIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/qszTWQP/images-13.png"
+  },
+  {
+    "id": 58,
+    "category": "Alphabet",
+    "icon": "AlphabetIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/QcBZYDj/images-15.png"
+  },
+  {
+    "id": 59,
+    "category": "Social",
+    "icon": "SocialIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/TqZZgsr/idea-line-icon-icon-for-your-website-mobile-presentation-and-logo-design-vector.jpg"
+  },
+  {
+    "id": 60,
+    "category": "Social",
+    "icon": "SocialIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/7pWJnWX/icon-concept-of-basic-or-regular-light-bulb-sparkling-and-shining-in-simple-line-style-can-used-for.jpg"
+  },
+  {
+    "id": 61,
+    "category": "Social",
+    "icon": "SocialIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/NmpkBjg/images-7.png"
+  },
+  {
+    "id": 62,
+    "category": "Business",
+    "icon": "BusinessIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/nmBBCrj/images-1.jpg"
+  },
+  {
+    "id": 63,
+    "category": "Business",
+    "icon": "BusinessIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/2W5xSRG/images-18.png"
+  },
+  {
+    "id": 64,
+    "category": "Business",
+    "icon": "BusinessIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/vDhDmN0/images-17.png"
+  },
+  {
+    "id": 65,
+    "category": "Communication",
+    "icon": "CommunicationIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/NmpkBjg/images-7.png"
+  },
+  {
+    "id": 66,
+    "category": "Communication",
+    "icon": "CommunicationIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/Y8VLj1M/pngtree-communication-flat-icon-png-image-3607870.jpg"
+  },
+  {
+    "id": 67,
+    "category": "Communication",
+    "icon": "CommunicationIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/vmprZRj/images-2.jpg"
+  },
+  {
+    "id": 68,
+    "category": "Map",
+    "icon": "MapIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/x22qpZ5/communication-icon-png-65790.jpg"
+  },
+  {
+    "id": 69,
+    "category": "Map",
+    "icon": "MapIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/Wt5M0dp/4196292.png"
+  },
+  {
+    "id": 70,
+    "category": "Map",
+    "icon": "MapIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/1f91MjH/7028016.png"
   }
 ]

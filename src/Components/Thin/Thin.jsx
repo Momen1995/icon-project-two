@@ -1,6 +1,5 @@
 import { useLoaderData } from "react-router-dom";
 import Thins from "../Thins/Thins";
-import './Thin.css'
 
 const Thin = () => {
   const icons = useLoaderData();
@@ -12,10 +11,10 @@ const Thin = () => {
     <div>
       <h3>This is a thin: {thinIcons.length}</h3>
 
-      <div className="one">
-        {
-          thinIcons.map(icon => <Thins key={icon.id} icon={icon}></Thins>)
-        }
+      <div className="grid grid-cols-5 gap-6 text-center">
+        {thinIcons.map((icon) => (
+          <Thins key={icon.id} icon={icon}></Thins>
+        ))}
       </div>
     </div>
   );

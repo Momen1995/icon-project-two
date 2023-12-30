@@ -1,6 +1,5 @@
 import { useLoaderData } from "react-router-dom";
 import Regulars from "../Regulars/Regulars";
-import './Regular.css'
 
 const Regular = () => {
 
@@ -15,10 +14,10 @@ const Regular = () => {
     <div>
       <h3>This is a regular : {regularIcons.length}</h3>
 
-      <div className="one">
-        {
-          regularIcons.map(icon => <Regulars key={icon.id} icon={icon}></Regulars>)
-        }
+      <div className="grid grid-cols-5 gap-6 text-center">
+        {regularIcons.map((icon) => (
+          <Regulars key={icon.id} icon={icon}></Regulars>
+        ))}
       </div>
     </div>
   );

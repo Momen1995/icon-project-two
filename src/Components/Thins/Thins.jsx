@@ -1,11 +1,10 @@
-import './Thins.css'
 
 const Thins = (icon) => {
   const { image, category } = icon;
   return (
-    <div>
-      <img src={image} className="image-size"></img>
-      <p>{category}</p>
+    <div className="flex flex-col justify-center items-center shadow-lg py-2 hover:bg-orange-300 duration-300">
+      <img src={image} className="w-10"></img>
+      <p className="font-medium p-2">{category}</p>
     </div>
   );
 };

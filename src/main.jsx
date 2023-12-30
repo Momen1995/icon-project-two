@@ -15,6 +15,9 @@ import Lights from './Components/Lights/Lights.jsx';
 import Alerts from './Components/Alerts/Alerts.jsx';
 import Albhabets from './Components/Alphabets/Albhabets.jsx';
 import Communications from './Components/Communications/Communications.jsx';
+import Businesses from './Components/Businesses/Businesses.jsx';
+import Maps from './Components/Maps/Maps.jsx';
+import Socials from './Components/Socials/Socials.jsx';
 
 const router = createBrowserRouter([
   {
@@ -70,6 +73,21 @@ const router = createBrowserRouter([
         path: "communication",
         loader: () => fetch("icons.json"),
         element: <Communications></Communications>,
+      },
+      {
+        path: "business",
+        loader: () => fetch("icons.json"),
+        element: <Businesses></Businesses>,
+      },
+      {
+        path: "map",
+        loader: () => fetch("icons.json"),
+        element: <Maps></Maps>,
+      },
+      {
+        path: "social",
+        loader: () => fetch("icons.json"),
+        element: <Socials></Socials>,
       },
     ],
   },

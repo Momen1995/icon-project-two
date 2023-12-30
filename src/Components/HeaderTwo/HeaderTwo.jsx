@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const HeaderTwo = () => {
   return (
     <div>
-      <nav>
+      <nav className="bg-white shadow p-4">
         <p className="text-xl font-semibold mb-4">Style</p>
         <div className="flex flex-col gap-3 font-medium">
           <Link to="/solid">Solid</Link>
@@ -17,8 +17,9 @@ const HeaderTwo = () => {
           <Link to="/alert">Alert</Link>
           <Link to="/alphabet">Alphabet</Link>
           <Link to="/communication">Communication</Link>
-          <Link to="/light">Business</Link>
+          <Link to="/business">Business</Link>
           <Link to="/map">Map</Link>
+          <Link to="/social">Social</Link>
         </div>
       </nav>
     </div>

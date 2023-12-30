@@ -1,5 +1,5 @@
 import { useLoaderData } from "react-router-dom";
-import Classics from "../Classics.jsx/Classics";
+import Classics from "../Classics/Classics";
 import Alerts from "../Alerts/Alerts";
 
 

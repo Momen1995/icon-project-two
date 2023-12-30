@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Solids from '../Solids/Solids';
-import './Solid.css'
+
 
 const Solid = () => {
   const icons = useLoaderData()
@@ -17,7 +17,7 @@ const Solid = () => {
     <div>
       <h3>This is a solid : {solidIcons.length}</h3>
 
-      <div className='one'>
+      <div className='grid grid-cols-5 gap-6 text-center'>
         {solidIcons.map((solidIcon) => (
           <Solids key={solidIcon.id} solidIcon={solidIcon}></Solids>
         ))}
