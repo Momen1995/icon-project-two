@@ -21,6 +21,7 @@ import Socials from './Components/Socials/Socials.jsx';
 import Roomys from './Components/Roomys/Roomys.jsx';
 import Compacts from './Components/Compacts/Compacts.jsx';
 import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
+import Input from './Components/Input/Input.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,11 @@ const router = createBrowserRouter([
         path: "classic",
         loader: () => fetch("icons.json"),
         element: <Classic></Classic>,
+      },
+      {
+        path: "input",
+        loader: () => fetch("icons.json"),
+        element: <Input></Input>,
       },
       {
         path: "sharp",
