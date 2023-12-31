@@ -35,11 +35,6 @@ const router = createBrowserRouter([
         element: <Classic></Classic>,
       },
       {
-        path: "input",
-        loader: () => fetch("icons.json"),
-        element: <Input></Input>,
-      },
-      {
         path: "sharp",
         loader: () => fetch("icons.json"),
         element: <Sharp></Sharp>,

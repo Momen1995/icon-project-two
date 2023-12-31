@@ -2,10 +2,12 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Input from "../Input/Input";
 
+
 const Inputs = () => {
   const [icons, setIcons] = useState([]);
   const [inputIcon, setInputIcon] = useState([]);
   const [errorMessage, setErrorMessage] = useState("");
+
 
   useEffect(() => {
     fetch("icons.json")
@@ -18,6 +20,7 @@ const Inputs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(e.target.name.value);
+
 
     const inputIcon = icons.filter(
       (icon) =>

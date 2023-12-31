@@ -4,6 +4,7 @@ import HeaderTwo from "../HeaderTwo/HeaderTwo";
  import Inputs from "../inputs/Inputs"; 
 
 
+
 const Home = () => {
   return (
     <div className="w-11/12 mx-auto flex flex-col">
